@@ -1,0 +1,14 @@
+{
+  "name" : "Site Block",
+  "version": "1.0",
+  "description": "How web advisors work",
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ],
+  "background": {
+    "scripts" : [
+      "background.js"
+    ]
+  },
+  "manifest_version" : 2
+}
